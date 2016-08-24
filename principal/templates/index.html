@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>django y node</title>
+</head>
+<body>
+	<h1>Ingresa a la aplicacion</h1>
+	<form method="POST">
+		{% csrf_token %}
+		<input type="text" name="name" placeholder"Ingresa un nombre">
+		<input type="submit" value="Ingresa">
+	</form>
+</body>
+</html>
